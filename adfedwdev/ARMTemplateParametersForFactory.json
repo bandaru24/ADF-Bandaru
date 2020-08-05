@@ -17,6 +17,9 @@
 		"AzureBlobStorage25_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage26_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
@@ -29,8 +32,11 @@
 		"Prasad23_connectionString": {
 			"value": ""
 		},
-		"AzureBlobStorage26_connectionString": {
-			"value": ""
+		"AzureBlobStorage27_properties_typeProperties_connectionString_secretName": {
+			"value": "SecretCS"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://Keyvault2306.vault.azure.net/"
 		}
 	}
 }

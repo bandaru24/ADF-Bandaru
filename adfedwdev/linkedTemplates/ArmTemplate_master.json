@@ -23,6 +23,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage25'"
 		},
+		"AzureBlobStorage26_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage26'"
+		},
 		"AzureSqlDatabase1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
@@ -39,9 +43,13 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Prasad23'"
 		},
-		"AzureBlobStorage26_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage26'"
+		"AzureBlobStorage27_properties_typeProperties_connectionString_secretName": {
+			"type": "string",
+			"defaultValue": "SecretCS"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://Keyvault2306.vault.azure.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -82,6 +90,9 @@
 					"AzureBlobStorage25_connectionString": {
 						"value": "[parameters('AzureBlobStorage25_connectionString')]"
 					},
+					"AzureBlobStorage26_connectionString": {
+						"value": "[parameters('AzureBlobStorage26_connectionString')]"
+					},
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
@@ -94,8 +105,11 @@
 					"Prasad23_connectionString": {
 						"value": "[parameters('Prasad23_connectionString')]"
 					},
-					"AzureBlobStorage26_connectionString": {
-						"value": "[parameters('AzureBlobStorage26_connectionString')]"
+					"AzureKeyVault1_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
+					},
+					"AzureBlobStorage27_properties_typeProperties_connectionString_secretName": {
+						"value": "[parameters('AzureBlobStorage27_properties_typeProperties_connectionString_secretName')]"
 					}
 				}
 			},
