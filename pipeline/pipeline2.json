@@ -45,7 +45,15 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"isSequential": true
+					"isSequential": true,
+					"activities": [
+						{
+							"name": "Set variable1",
+							"type": "SetVariable",
+							"dependsOn": [],
+							"userProperties": []
+						}
+					]
 				}
 			}
 		],
